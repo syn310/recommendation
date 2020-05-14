@@ -1,0 +1,12 @@
+bookrental\Revsuccessed.class
+bookrental\AbstractEvent$1.class
+bookrental\RecommendationRepository.class
+bookrental\Recommended.class
+bookrental\AbstractEvent.class
+bookrental\RecommendationViewHandler.class
+bookrental\Application.class
+bookrental\PolicyHandler.class
+bookrental\Recommendation.class
+bookrental\config\kafka\KafkaProcessor.class
+bookrental\Revcanceled.class
+bookrental\Incomed.class
