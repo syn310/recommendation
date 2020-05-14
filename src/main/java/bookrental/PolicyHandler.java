@@ -26,13 +26,13 @@ public class PolicyHandler{
         }
     }
 
-    @StreamListener(KafkaProcessor.INPUT)
+    /*@StreamListener(KafkaProcessor.INPUT)
     public void wheneverRecommended_Revhistory(@Payload Recommended recommended){
 
         if(recommended.isMe()){
             System.out.println("##### listener Recommended : " + recommended.toJson());
         }
-    }
+    }*/
 
     @StreamListener(KafkaProcessor.INPUT)
     public void wheneverRevsuccessed_Revhistory(@Payload Revsuccessed revsuccessed){

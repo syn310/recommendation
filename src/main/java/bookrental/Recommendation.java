@@ -20,7 +20,7 @@ public class Recommendation {
         private String bookid;
         private int revqty;
 
-        @PostPersist
+        /*@PostPersist
         public void onPostPersist() {
 
             Recommended recommended = new Recommended();
@@ -42,7 +42,7 @@ public class Recommendation {
                     .withPayload(json)
                     .setHeader(MessageHeaders.CONTENT_TYPE, MimeTypeUtils.APPLICATION_JSON)
                     .build());
-        }
+        }*/
 
         public long getId() {
             return id;
