@@ -13,7 +13,7 @@ spec:
         - name: recommendation
           image: ccteam4acr.azurecr.io/recommendation
           ports:
-            - containerPort: 8084
+            - containerPort: 8085
           resources:
             limits:
               cpu: 500m
